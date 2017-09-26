@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     author='Luis Da Costa',
     author_email='dacosta.le@gmail.com',
-    packages=['rendering'],
+    packages=['rendering', 'rendering.pygame'],
     scripts=[],
     url='https://github.com/ldacosta/rendering_facilities/',
     license='LICENSE.txt',

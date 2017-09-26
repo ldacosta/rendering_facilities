@@ -6,3 +6,7 @@ dependencies.txt
 setup.py
 rendering/__init__.py
 rendering/base.py
+rendering/pygame/FontManager.py
+rendering/pygame/__init__.py
+rendering/pygame/base.py
+rendering/pygame/test_rectangles_equivalence.py
