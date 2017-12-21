@@ -19,11 +19,7 @@ class DrawingRect(object): # pylint: disable=too-few-public-methods
     """What to draw in a rectangle."""
 
     def __init__(self, top: float, left: float, width: float, height: float, color: Color, lines_thickness: int):
-        shape = pygame.rect.Rect(top, left, width, height)
-
-        # self.playing_area = Rect(Global.TOP_LEFT, Global.WIDTH_HEIGHT)
-
-        self.shape = shape
+        self.shape = pygame.rect.Rect(left, top, width, height)
         self.color = base_color_2_pygame_color(color)
         self.lines_thickness = lines_thickness
 
